@@ -94,7 +94,7 @@ Both the Web application and API can be run inside Docker containers.
    ```bash
    docker run -d -p 8080:80 --name raceday-app raceday-web
    ```
-   Access the containerized web portal at `http://localhost:8080`.
+   Access the containerized web portal at `http://localhost:8080`
 
 ---
 
