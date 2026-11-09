@@ -6,7 +6,7 @@ The **RaceDay Platform** is an end-to-end ASP.NET Core web system designed for m
 
 ---
 
-## 🏃 Project Overview & Architecture
+## Project Overview & Architecture
 
 The solution strictly enforces separation of concerns:
 - **`RaceDay.Api`**: Handles database interactions via Entity Framework Core (SQL Server), session authentication, password hashing (BCrypt), role authorization, and Azure Blob Storage integration.
@@ -15,7 +15,7 @@ The solution strictly enforces separation of concerns:
 
 ---
 
-## 🛠️ Features
+## Features
 
 ### Organiser Capabilities
 - **Dashboard**: High-level overview of events, total enrolments, and upcoming race dates.
@@ -33,7 +33,7 @@ The solution strictly enforces separation of concerns:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
@@ -79,7 +79,7 @@ The solution strictly enforces separation of concerns:
 
 ---
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 Both the Web application and API can be run inside Docker containers.
 
@@ -98,7 +98,7 @@ Both the Web application and API can be run inside Docker containers.
 
 ---
 
-## ☁️ Azure Blob Storage Integration
+##  Azure Blob Storage Integration
 
 File uploads (such as event banner images and profile avatars) are integrated into the `RaceDay.Api` layer. 
 
@@ -108,7 +108,7 @@ File uploads (such as event banner images and profile avatars) are integrated in
 
 ---
 
-## 🔄 CI/CD Pipeline
+##  CI/CD Pipeline
 
 The repository uses **GitHub Actions** (`.github/workflows/ci.yml`) to automatically validate every push and pull request:
 1. Restores NuGet dependencies across `RaceDay.sln`.
@@ -117,13 +117,13 @@ The repository uses **GitHub Actions** (`.github/workflows/ci.yml`) to automatic
 
 ---
 
-## 📹 Video Demonstration
+##  Video Demonstration
 
 A complete walk-through demonstrating the running application, MVC architecture, Azure Blob Storage implementation, and Docker deployment is available here:
 
-- **YouTube Video (Unlisted):** [Insert Your Video URL Here]
+- **YouTube Video (Unlisted):*
 
 ---
 
-## 📝 License & Disclaimer
+##License & Disclaimer
 Submitted as part of the **PROG6212 Portfolio of Evidence (POE)** assessment. All rights reserved.
